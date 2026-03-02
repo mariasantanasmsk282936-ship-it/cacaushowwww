@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Especial de Páscoa - Oferta Limitada</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, #fdf6ff, #ffeaf4);
+}
+
+header{
+    background: linear-gradient(90deg,#7b2cbf,#d63384);
+    padding:25px;
+    text-align:center;
+    color:white;
+    font-size:28px;
+    font-weight:700;
+}
+
+.container{
+    max-width:1100px;
+    margin:50px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+.top-section{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.product-img{
+    flex:1;
+    text-align:center;
+}
+
+.product-img img{
+    width:100%;
+    max-width:400px;
+    border-radius:15px;
+    filter: drop-shadow(0 15px 20px rgba(0,0,0,0.15));
+}
+
+.product-info{
+    flex:1;
+}
+
+.badge{
+    background:#ffd60a;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    display:inline-block;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.product-info h1{
+    font-size:28px;
+    margin-bottom:15px;
+    color:#7b2cbf;
+}
+
+.price{
+    font-size:36px;
+    color:#e63946;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+ul{
+    margin-bottom:25px;
+}
+
+ul li{
+    margin-bottom:8px;
+}
+
+.checkout{
+    margin-top:40px;
+    padding:30px;
+    background:#fff0fa;
+    border-radius:15px;
+}
+
+.checkout h2{
+    margin-bottom:15px;
+    color:#7b2cbf;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
+
+input{
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    width:100%;
+}
+
+.full{
+    grid-column:1 / -1;
+}
+
+button{
+    background: linear-gradient(90deg,#ff006e,#ff8500);
+    color:white;
+    padding:15px 30px;
+    border:none;
+    border-radius:30px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+    font-weight:600;
+    margin-top:20px;
+}
+
+button:hover{
+    transform:scale(1.05);
+    opacity:0.9;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+🐰 Especial de Páscoa 2026 🍫
+</header>
+
+<div class="container">
+
+<div class="top-section">
+
+<div class="product-img">
+<img src="ovo.png" 
+     alt="Ovo Ursinhos Carinhosos"
+     onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500?text=Imagem+Indisponivel';">
+</div>
+
+<div class="product-info">
+
+<div class="badge">🔥 Oferta Limitada</div>
+
+<h1>Ovo Ursinhos Carinhosos com Pelúcia</h1>
+
+<div class="price">R$ 59,99</div>
+
+<ul>
+<li>✔ Chocolate delicioso</li>
+<li>✔ Acompanha pelúcia oficial</li>
+<li>✔ Embalagem premium para presente</li>
+<li>✔ Produto original e lacrado</li>
+</ul>
+
+</div>
+</div>
+
+<div class="checkout">
+
+<h2>Dados para Entrega</h2>
+
+<div class="form-grid">
+<input type="text" placeholder="Nome completo" class="full">
+<input type="text" placeholder="CPF">
+<input type="text" placeholder="CEP">
+<input type="text" placeholder="Endereço" class="full">
+<input type="text" placeholder="Número">
+<input type="text" placeholder="Complemento">
+<input type="text" placeholder="Bairro">
+<input type="text" placeholder="Cidade">
+<input type="text" placeholder="Estado" class="full">
+</div>
+
+<h2 style="margin-top:30px;">Pagamento</h2>
+
+<div class="form-grid">
+<input type="text" placeholder="Número do cartão" class="full">
+<input type="text" placeholder="Validade (MM/AA)">
+<input type="text" placeholder="CVV">
+</div>
+
+<div style="text-align:center;">
+<button>Confirmar Compra</button>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Loja Oficial - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
